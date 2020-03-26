@@ -19,6 +19,7 @@ public class SocketChannelClientDemo {
         SocketChannel socketChannel = SocketChannel.open(new InetSocketAddress(8099));
         System.out.println("Socket连接成功");
         socketChannel.configureBlocking(false);
+
         Selector selector = Selector.open();
         socketChannel.register(selector, SelectionKey.OP_READ);
         //开启Selector线程接收数据

@@ -13,6 +13,7 @@ public class SocketChannelClientDemo {
     public static void main(String[] args) throws IOException, InterruptedException {
         //开启Socket通道，默认使用localhost
         SocketChannel socketChannel = SocketChannel.open(new InetSocketAddress(8099));
+
         //定义一个容量为48个字节的缓存
         ByteBuffer byteBuffer = ByteBuffer.allocate(48);
         //向缓存写入字节
