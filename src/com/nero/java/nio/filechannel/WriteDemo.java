@@ -19,7 +19,7 @@ public class WriteDemo {
         ByteBuffer buf = ByteBuffer.allocate(48);
 
         //写入数据
-        buf.put("hello".getBytes());
+        buf.put("hello 你好".getBytes());
         buf.flip();
         while (buf.hasRemaining()) {
             fileChannel.write(buf, 10);//从文件的第10个字节开始写入

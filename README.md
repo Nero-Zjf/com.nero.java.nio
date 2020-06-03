@@ -9,6 +9,7 @@
 ## com.nero.java.nio.filechannel
 WriteDemo 演示FileChannel写入数据
 ReadDemo 演示FileChannel读取数据
+ReadDemo1 演示FileChannel读取数据并进行解码
 
 ## com.nero.java.nio.transfer
 演示利用FileChannel向其他通道传出数据或从其他通道传入数据
@@ -18,8 +19,3 @@ ReadDemo 演示FileChannel读取数据
 
 ## com.nero.java.nio.pipe
 演示使用pipe进行线程间单方向通信
-
-## com.nero.java.nio.files
-待编写
-## com.nero.java.nio.path
-待编写
